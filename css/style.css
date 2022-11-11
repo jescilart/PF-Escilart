@@ -1,0 +1,65 @@
+/*FUENTES*/
+@font-face{
+    font-family:"confortaa";
+    src:url(./fuentes/Comfortaa-VariableFont_wght.ttf);
+    }
+
+/*INDEX*/
+.nav {
+    font-family: "confortaa";
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.paginas{
+    text-align: right;
+    display: inline-block;
+}
+
+.inicio-texto h1 {
+    font-family: "confortaa";
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.confortaa p{ 
+        font-family: "confortaa";
+    }
+
+.inicio-texto{
+    height:30rem;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-image: url(./imagenes/casaswide.jpg) ;
+}
+
+.enventa-images{
+    margin:10px auto;
+    border-radius:5px;
+    border: 3px solid rgb(0, 0, 0);
+    padding:13px;
+    width:20em;
+    
+}
+
+.flex-staff{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+}
+
+.staff-images{
+    margin:10px auto;
+    border-radius:5px;
+    border: 3px solid rgb(0, 0, 0);
+    padding:13px;
+    width:20em;
+}
+
+.staff-images h3{
+    text-align:justify
+}
+
+.staff {
+    background-color: darkslategray;
+}
