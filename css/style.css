@@ -1,7 +1,7 @@
 /*FUENTES*/
 @font-face{
     font-family:"confortaa";
-    src:url(./fuentes/Comfortaa-VariableFont_wght.ttf);
+    src:url(../fuentes/Comfortaa-VariableFont_wght.ttf);
     }
 
 /*INDEX*/
@@ -30,7 +30,7 @@
     height:30rem;
     background-size:cover;
     background-repeat:no-repeat;
-    background-image: url(./imagenes/casaswide.jpg) ;
+    background-image: url(../imagenes/casaswide.jpg) ;
 }
 
 .enventa-images{
@@ -63,3 +63,4 @@
 .staff {
     background-color: darkslategray;
 }
+
