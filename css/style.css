@@ -10,8 +10,8 @@
 
 header{
     display: block;
-    text-align: center;
-    background-color: #848c8e;
+    text-align: right;
+    background-color: #346a78ba;
 }
 
 header nav{
@@ -24,7 +24,7 @@ header ul{
     display: inline-block;
     list-style-type: none;
     margin: 0.5em auto;
-    text-align: center;
+    text-align: right;
 }
 
 header ul li{
@@ -34,9 +34,9 @@ header ul li{
 header ul li a{
     text-decoration: none;
     border: solid;
-    border-color: #7D8471;
+    border-color: #ffffff;
     border-radius: 50px;
-    background-color: #7D8471;
+    background-color: #5366b5af;
     color: white;
     padding: 0.3em;
 }
@@ -109,7 +109,7 @@ header ul li a:active{
 }
 
 .staff {
-    background-color: darkslategray;
+    background-color: rgba(47, 79, 79, 0.088);
 }
 
 .carousel{
