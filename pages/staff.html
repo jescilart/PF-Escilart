@@ -12,20 +12,16 @@
 
     <body>
         <header>
-            <div class="nav">
-                <nav>
-    
-                    <a title="inicio" href="../index.html"><img src="../imagenes/logo.png" height="100" alt="inicio"> </a>
-                
-                    <div class="paginas">
-                    <ul>
-                        <li><a href="../pages/enventa.html">En Venta</a></li>
-                        <li><a href="../pages/staff.html">Staff</a></li>
-                    </ul>
-                    </div>
-    
-                </nav>
-            </div>
+            <a href="../index.html"><img src="../imagenes/logo.png" alt="inmobilien"></a> <br>
+            <div class="topnav" id="myTopnav">
+                <a href="../pages/contacto.html">Contacto</a>
+                <a href="../pages/enventa.html">En Venta</a>
+                <a href="../pages/alquiler.html">En Alquiler</a>
+                <a href="../pages/staff.html">Staff</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+              </div>
         </header>
 
     
@@ -33,12 +29,8 @@
         <main>
             <h1>Staff</h1>
 
-            <img src="../imagenes/Staff/pexels-marc-mueller-380768.jpg" height="200em">
-            <img src="../imagenes/Staff/april-pethybridge-nN28PjFOOLI-unsplash.jpg" height="200em">
-            <img src="../imagenes/Staff/pexels-cadeau-maestro-1170412.jpg" height="200em">
-
             <h2>30 años de confianza</h2>
-            <p>
+            <p class="parrafo-staff">
                 Desde 1992 nuestro equipo está conformado por los mejores profesionales del sector, todos ellos con amplios conocimientos en tasación y ventas, para poder lograr la mejor valuación y posterior comercialización. Nuestros valores se basan en la honestidad y la transparencia durante el proceso, garantizando todos los estándares de calidad que exige un rubro como el inmobiliario.<br>
                 Nos importan todas nuestras propiedades, y es nuestro objetivo que todas y cada una de ellas encuentren a su propietario ideal. Es por eso que contamos con una selecta cartera de inmuebles los cuales cuentan con todas las revisiones necesarias para garantizar que el nuevo hogar sea una maravillosa experiencia desde el primer minuto.
             </p>
@@ -87,7 +79,6 @@
             </div>
             </div>
             </div>
-
         </main>
     
         
@@ -100,6 +91,17 @@
                 Horario: Lunes a Viernes - 9:00 a 17:00 hs<br>
             </p>
         </footer>
+
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-        </body>
+        <script> function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+         x.className += " responsive";
+        } else {
+        x.className = "topnav";
+        }
+        } </script>
+
+    </body>
 </html>

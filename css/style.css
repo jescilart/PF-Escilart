@@ -4,59 +4,65 @@
     src:url(../fuentes/Comfortaa-VariableFont_wght.ttf);
     }
 
-/*INDEX*/
-
-
-
-/* NUEVA NAV*/
-
-/* Add a black background color to the top navigation */
+/*NAV*/
 .topnav {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     overflow: hidden;
   }
-  
-  .logo img {
-    max-width: 20%;
-    min-width: 20%;
-    padding-top: 5%;
-    padding-left: 5%;
+
+
+  header img {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1%;
+    padding-left: 1%;
+    max-width: 30%;
+    max-height: 30%;
+    
+    
   }
-  /* Style the links inside the navigation bar */
   .topnav a {
-    float: right;
-    display: block;
-    color: #000000;
+    float:right;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
   }
   
-  /* Change the color of links on hover */
+
   .topnav a:hover {
     background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.555);
   }
   
   
-  /* Hide the link that should open and close the topnav on small screens */
   .topnav .icon {
-    display: none;
+    display:none;
   }
+
 
   /*MEDIA QUERIES NAV*/
-
-  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
     }
+    header img{
+      max-width: 90%;
+      justify-content: center;
+      padding-left: 2%;
+      
+    }
   }
   
-  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  
   @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
@@ -75,23 +81,22 @@
 
 
 
-
-/*NUEVA NAV*/
-
-
-
-
-
-
-
-
+/*FOOTER*/
+footer{
+  display: flex;
+  justify-content: right;
+  text-align: right;
+  margin-right: 1%;
+  margin-top: 1%;
+}
 
 
 
 
-.paginas{
-    text-align: right;
-    display: inline-block;
+/*BODY INDEX*/
+
+.confortaa p{ 
+    font-family: "confortaa";
 }
 
 .inicio-texto h1 {
@@ -100,30 +105,59 @@
     font-size: x-large;
 }
 
-.confortaa p{ 
-        font-family: "confortaa";
-    }
 
 .inicio-texto{
     height:30rem;
     background-size:cover;
     background-repeat:no-repeat;
     background-image: url(../imagenes/casaswide.jpg) ;
+    
 }
 
+.inicio-texto2{
+    height:30rem;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-image: url(../imagenes/skylinewide.jpg) ;
+    
+}
+
+.inicio-texto article{
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+.inicio-texto2 article{
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    padding-right: 1%;
+    padding-top: 1%;
+}
+
+
+
+/*EN VENTA*/
 .enventa-images{
     margin:10px auto;
     border-radius:5px;
     border: 3px solid rgb(0, 0, 0);
     padding:13px;
     width:20em;
-    
 }
 
+.carousel{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+
+
+/*STAFF*/
 .flex-staff{
     display: flex;
     flex-direction:row;
-    flex-wrap:nowrap;
+    flex-wrap:wrap;
 }
 
 .staff-images{
@@ -142,9 +176,22 @@
     background-color: rgba(47, 79, 79, 0.088);
 }
 
-.carousel{
-    margin-left: 2%;
-    margin-right: 2%;
-
+.parrafo-staff{
+  font-family: "confortaa";
+  margin-left: 1%;
+  margin-right: 1%;
+  text-align: justify;
 }
 
+
+
+/*CONTACTO*/
+
+.maps{
+  width: 100%;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+}
