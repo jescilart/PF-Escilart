@@ -4,7 +4,12 @@
 }
 
 
-
+/*TITULOS*/
+h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
 
 
 /*FUENTES*/
@@ -156,9 +161,12 @@ footer{
 }
 
 .carousel{
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  
 }
+
 
 
 
@@ -197,10 +205,14 @@ footer{
 /*CONTACTO*/
 
 .maps{
+  display: flex;
+  justify-content: center;
   width: 100%;
+  padding: 5%;
 }
 
-.container {
+.container-maps {
   display: grid;
   justify-content: center;
+  width: 100%;
 }
